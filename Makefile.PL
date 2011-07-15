@@ -28,6 +28,7 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'CatalystX::Controller::Role::PermissionCheck',
   'PREREQ_PM' => {
+    'Catalyst::Plugin::Authentication' => '0',
     'Catalyst::Plugin::Session' => '0',
     'Catalyst::Plugin::Session::State::Cookie' => '0',
     'Catalyst::Runtime' => '0',
@@ -35,7 +36,7 @@ my %WriteMakefileArgs = (
     'Moose::Role' => '0',
     'Try::Tiny' => '0'
   },
-  'VERSION' => '0.01',
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }

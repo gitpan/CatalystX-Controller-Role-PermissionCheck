@@ -1,6 +1,6 @@
 package CatalystX::Controller::Role::PermissionCheck;
 BEGIN {
-  $CatalystX::Controller::Role::PermissionCheck::VERSION = '0.01';
+  $CatalystX::Controller::Role::PermissionCheck::VERSION = '0.02';
 }
 
 use Moose::Role;
@@ -94,7 +94,7 @@ CatalystX::Controller::Role::PermissionCheck - Provides an opinionated method fo
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

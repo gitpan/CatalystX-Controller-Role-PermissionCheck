@@ -21,6 +21,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Catalyst::Plugin::Authentication" : 0,
             "Catalyst::Plugin::Session" : 0,
             "Catalyst::Plugin::Session::State::Cookie" : 0,
             "Catalyst::Runtime" : 0,
@@ -48,6 +49,6 @@
          "url" : "https://github.com/jshirley/catalystx-controller-role-permissioncheck"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
 
