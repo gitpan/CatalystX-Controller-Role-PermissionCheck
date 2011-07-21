@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution CatalystX-Controller-Role-PermissionCheck,
-version 0.02:
+version 0.03:
 
   Provides an opinionated method for verifying permissions on a per-action basis by inspecting the user.
 
